@@ -9630,11 +9630,6 @@ strapi-plugin-magic@^0.3.2:
     "@magic-sdk/admin" "^1.2.2"
     styled-components "^5.2.0"
 
-strapi-plugin-membership-light@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-membership-light/-/strapi-plugin-membership-light-1.0.0.tgz#32e045c289b274edf4138d12b3dc857ab2bc86d7"
-  integrity sha512-taj5B/mOr+QMfc6sR5HTgyXes48+3bjl6jcJEd8IxCG8cDCdeSLsBGTbprlQYTJ0gMYVgmK0XD/CsbL67+NOHQ==
-
 strapi-plugin-upload@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.4.1.tgz#ed424ec0913a77aabd4fda84072b383de3664228"
@@ -9727,7 +9722,7 @@ strapi-utils@3.4.1, strapi-utils@^3.4.1:
     pluralize "^8.0.0"
     yup "0.29.3"
 
-strapi@3.4.1:
+strapi@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/strapi/-/strapi-3.4.1.tgz#e2eec23ac9cad708499a46510fb1d393f3274abc"
   integrity sha512-h3yx7wDiMmyPcZkRM1Bjx0A4Sobjfo/P/SQpThlTvyX8hLUWTibetb2Zf3EY4UlawDMRvMTTCfwKt0UhnB4brA==
