@@ -60,8 +60,10 @@
       "configurable": false
     },
     "products": {
+      "plugin": "membership-light",
+      "collection": "product",
       "via": "users",
-      "collection": "product"
+      "dominant": true
     }
   }
 }

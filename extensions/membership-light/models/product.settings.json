@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "product",
-    "description": ""
+    "name": "product"
   },
   "options": {
     "increments": true,
@@ -15,10 +14,9 @@
       "type": "string"
     },
     "users": {
-      "plugin": "users-permissions",
-      "collection": "user",
       "via": "products",
-      "dominant": true
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }
